@@ -17,6 +17,21 @@
 		<servlet-name>dispatcher</servlet-name>
 		<url-pattern>/</url-pattern>
 	</servlet-mapping>
+	<!-- error-code related error pages -->
+		<error-page>
+		<error-code>404</error-code>
+		<location>/WEB-INF/views/error1.jsp</location>
+		</error-page>
+		<!-- error-code related error pages -->
+		<error-page>
+		<error-code>400</error-code>
+		<location>/WEB-INF/views/error2.jsp</location>
+		</error-page>
+		<!-- error-code related error pages -->
+		<error-page>
+		<error-code>500</error-code>
+		<location>/WEB-INF/views/error3.jsp</location>
+		</error-page>
 	<listener>
         <listener-class>
             org.springframework.web.context.ContextLoaderListener

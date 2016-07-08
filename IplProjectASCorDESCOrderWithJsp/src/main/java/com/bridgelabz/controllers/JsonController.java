@@ -26,15 +26,12 @@ public class JsonController
 			return new ModelAndView("iplhome",model);
 		}
 		@RequestMapping(value="/sort", method = RequestMethod.GET)
-		public ModelAndView searchbyname(@RequestParam(value="sort_field", required=true) String sort_field,@RequestParam(value="sort_order", required=true) String sort_order) 
+		public ModelAndView sortOrder(@RequestParam(value="sort_field", required=true) String sort_field,@RequestParam(value="sort_order", required=true) String sort_order) 
 		{
-			System.out.println("aaa1");
 			Map<String, Object> model = new HashMap<String, Object>();
-			System.out.println("aaa2");
 			System.out.println(sort_field);
 			System.out.println(sort_order);
 			model.put("playerlist", play.sort_Player_Info(sort_field,sort_order));
-			System.out.println("aaa3");
 			return new ModelAndView("asc_desc",model);
 			
 		}

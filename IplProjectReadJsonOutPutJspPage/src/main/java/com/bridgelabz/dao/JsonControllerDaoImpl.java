@@ -28,7 +28,7 @@ public class JsonControllerDaoImpl implements JsonDao {
 			try {
 				//read json file data  from local repository
 				FileReader fileread = new FileReader(
-						"/home/bridgeit/Desktop/IPLTeamApp/src/main/jsonfile/IPLTeam/DDTeamInfo.json");
+						"/home/bridgeit/Desktop/IplProjectReadJsonOutPutJspPage/src/main/jsonfile/IPLTeam/DDTeamInfo.json");
 
 				Object obj = parser.parse(fileread);
 				JSONArray array = (JSONArray) obj;
@@ -82,7 +82,7 @@ public class JsonControllerDaoImpl implements JsonDao {
 
         try {
         	
-        	FileReader fileread=new FileReader("/home/bridgeit/Desktop/IPLTeamApp/src/main/jsonfile/IPLPlayer/DDPlayer.json");
+        	FileReader fileread=new FileReader("/home/bridgeit/Desktop/IplProjectReadJsonOutPutJspPage/src/main/jsonfile/IPLPlayer/DDPlayer.json");
         	Object obj=parser.parse(fileread);
         	JSONArray array =(JSONArray)obj;
         	for (int i = 0; i < array.size(); i++) {
@@ -133,7 +133,7 @@ public class JsonControllerDaoImpl implements JsonDao {
 		try {
 			//read jsonfile data  from local repository
 			FileReader fileread = new FileReader(
-					"/home/bridgeit/Desktop/IPLTeamApp/src/main/jsonfile/IPLTeam/GujratTeam.json");
+					"/home/bridgeit/Desktop/IplProjectReadJsonOutPutJspPage/src/main/jsonfile/IPLTeam/GujratTeam.json");
 
 			Object obj = parser.parse(fileread);
 			JSONArray array = (JSONArray) obj;
@@ -185,7 +185,7 @@ System.out.println("gujarat list while be display shortly");
         
         try {
         	
-        	FileReader fileread=new FileReader("/home/bridgeit/Desktop/IPLTeamApp/src/main/jsonfile/IPLPlayer/GujratLionPlayer.json");
+        	FileReader fileread=new FileReader("/home/bridgeit/Desktop/IplProjectReadJsonOutPutJspPage/src/main/jsonfile/IPLPlayer/GujratLionPlayer.json");
         	
         	Object obj=parser.parse(fileread);
         	JSONArray array =(JSONArray)obj;
@@ -239,7 +239,7 @@ System.out.println("gujarat list while be display shortly");
 		try {
 
 			FileReader fileread = new FileReader(
-					"/home/bridgeit/Desktop/IPLTeamApp/src/main/jsonfile/IPLTeam/PunjabTeam.json");
+					"/home/bridgeit/Desktop/IplProjectReadJsonOutPutJspPage/src/main/jsonfile/IPLTeam/PunjabTeam.json");
 
 			Object obj = parser.parse(fileread);
 			JSONArray array = (JSONArray) obj;
@@ -292,7 +292,7 @@ System.out.println("punjab list while be display shortly");
         
         try {
         	
-        	FileReader fileread=new FileReader("/home/bridgeit/Desktop/IPLTeamApp/src/main/jsonfile/IPLPlayer/punjabPlayer.json");
+        	FileReader fileread=new FileReader("/home/bridgeit/Desktop/IplProjectReadJsonOutPutJspPage/src/main/jsonfile/IPLPlayer/punjabPlayer.json");
         	
         	Object obj=parser.parse(fileread);
         	JSONArray array =(JSONArray)obj;
@@ -346,7 +346,7 @@ System.out.println("punjab list while be display shortly");
 		try {
 
 			FileReader fileread = new FileReader(
-					"/home/bridgeit/Desktop/IPLTeamApp/src/main/jsonfile/IPLTeam/KKRTeam.json");
+					"/home/bridgeit/Desktop/IplProjectReadJsonOutPutJspPage/src/main/jsonfile/IPLTeam/KKRTeam.json");
 
 			Object obj = parser.parse(fileread);
 			JSONArray array = (JSONArray) obj;
@@ -400,7 +400,7 @@ System.out.println("kolkatta list while be display shortly");
         
         try {
         	
-        	FileReader fileread=new FileReader("/home/bridgeit/Desktop/IPLTeamApp/src/main/jsonfile/IPLPlayer/KKRPlayer.json");
+        	FileReader fileread=new FileReader("/home/bridgeit/Desktop/IplProjectReadJsonOutPutJspPage/src/main/jsonfile/IPLPlayer/KKRPlayer.json");
         	
         	Object obj=parser.parse(fileread);
         	JSONArray array =(JSONArray)obj;
@@ -454,7 +454,7 @@ System.out.println("kolkatta list while be display shortly");
 		try {
 
 			FileReader fileread = new FileReader(
-					"/home/bridgeit/Desktop/IPLTeamApp/src/main/jsonfile/IPLTeam/MumbaiIndians.json");
+					"/home/bridgeit/Desktop/IplProjectReadJsonOutPutJspPage/src/main/jsonfile/IPLTeam/MumbaiIndians.json");
 
 			Object obj = parser.parse(fileread);
 			JSONArray array = (JSONArray) obj;
@@ -508,7 +508,7 @@ System.out.println("mumbai list while be display shortly");
         
         try {
         	
-        	FileReader fileread=new FileReader("/home/bridgeit/Desktop/IPLTeamApp/src/main/jsonfile/IPLPlayer/MumbaiPlayer.json");
+        	FileReader fileread=new FileReader("/home/bridgeit/Desktop/IplProjectReadJsonOutPutJspPage/src/main/jsonfile/IPLPlayer/MumbaiPlayer.json");
         	
         	Object obj=parser.parse(fileread);
         	JSONArray array =(JSONArray)obj;
@@ -562,7 +562,7 @@ System.out.println("mumbai list while be display shortly");
 		try {
 
 			FileReader fileread = new FileReader(
-					"/home/bridgeit/Desktop/IPLTeamApp/src/main/jsonfile/IPLTeam/RisingPune.json");
+					"/home/bridgeit/Desktop/IplProjectReadJsonOutPutJspPage/src/main/jsonfile/IPLTeam/RisingPune.json");
 
 			Object obj = parser.parse(fileread);
 			JSONArray array = (JSONArray) obj;
@@ -616,7 +616,7 @@ System.out.println("pune list while be display shortly");
         
         try {
         	
-        	FileReader fileread=new FileReader("/home/bridgeit/Desktop/IPLTeamApp/src/main/jsonfile/IPLPlayer/RisingPunePlayer.json");
+        	FileReader fileread=new FileReader("/home/bridgeit/Desktop/IplProjectReadJsonOutPutJspPage/src/main/jsonfile/IPLPlayer/RisingPunePlayer.json");
         	
         	Object obj=parser.parse(fileread);
         	JSONArray array =(JSONArray)obj;
@@ -669,7 +669,7 @@ System.out.println("pune list while be display shortly");
 		try {
 
 			FileReader fileread = new FileReader(
-					"/home/bridgeit/Desktop/IPLTeamApp/src/main/jsonfile/IPLTeam/RoyalChallenges.json");
+					"/home/bridgeit/Desktop/IplProjectReadJsonOutPutJspPage/src/main/jsonfile/IPLTeam/RoyalChallenges.json");
 
 			Object obj = parser.parse(fileread);
 			JSONArray array = (JSONArray) obj;
@@ -723,7 +723,7 @@ System.out.println("rcb list while be display shortly");
         
         try {
         	
-        	FileReader fileread=new FileReader("/home/bridgeit/Desktop/IPLTeamApp/src/main/jsonfile/IPLPlayer/RoyalChallenges.json");
+        	FileReader fileread=new FileReader("/home/bridgeit/Desktop/IplProjectReadJsonOutPutJspPage/src/main/jsonfile/IPLPlayer/RoyalChallenges.json");
         	
         	Object obj=parser.parse(fileread);
         	JSONArray array =(JSONArray)obj;
@@ -779,7 +779,7 @@ System.out.println("rcb list while be display shortly");
 		try {
 
 			FileReader fileread = new FileReader(
-					"/home/bridgeit/Desktop/IPLTeamApp/src/main/jsonfile/IPLTeam/SunriseHydrabad.json");
+					"/home/bridgeit/Desktop/IplProjectReadJsonOutPutJspPage/src/main/jsonfile/IPLTeam/SunriseHydrabad.json");
 
 			Object obj = parser.parse(fileread);
 			JSONArray array = (JSONArray) obj;
@@ -833,7 +833,7 @@ System.out.println("hyd list while be display shortly");
         
         try {
         	
-        	FileReader fileread=new FileReader("/home/bridgeit/Desktop/IPLTeamApp/src/main/jsonfile/IPLPlayer/SunriseHydrabad.json");
+        	FileReader fileread=new FileReader("/home/bridgeit/Desktop/IplProjectReadJsonOutPutJspPage/src/main/jsonfile/IPLPlayer/SunriseHydrabad.json");
         	
         	Object obj=parser.parse(fileread);
         	JSONArray array =(JSONArray)obj;
