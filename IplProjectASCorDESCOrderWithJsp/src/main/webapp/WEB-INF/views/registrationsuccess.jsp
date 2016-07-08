@@ -8,6 +8,6 @@
 </head>
 <body bgcolor="palegreen">
 <h3><b>Your Registration Successfully Done</b></h3>
-<a href="/IplProjectOutputJsonFormat">HomePage</a>
+<a href="/IPLTeamApp">HomePage</a>
 </body>
 </html>
